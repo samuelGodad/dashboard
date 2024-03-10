@@ -16,15 +16,12 @@
 
 .form input, .form select, .form textarea {
     padding: 30px;
-    background-color: transparent;
+    background-color: var(--bg);
     color: var(--text);
-    border: 2px solid #5d57c4;
-    /*border-radius: 10px;*/
+    border: none;
     margin-bottom: 30px;
     outline: #182237;
     text-transform: capitalize;
-    
-    
 }
 
 .form input, .form select {
@@ -33,7 +30,6 @@
 
 .form textarea {
     width: 100%;
-    
 }
 
 .form button {
@@ -46,9 +42,4 @@
     transition: all 0.3s ease;
     width: 100%;
     font-size: 1.2rem;
-}
-
-.form select {
-    background-color: var(--bgSoft);
-    
 }

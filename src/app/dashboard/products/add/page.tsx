@@ -1,7 +1,7 @@
 import React from 'react';
 import styles from "@/src/app/ui/dashboard/products/addProducts/addProducts.module.css";
 
-function Page() {
+function AddProductPage() {
     return (
         <div className = {styles.container}>
             <form action = "" className = {styles.form}>
@@ -23,4 +23,4 @@ function Page() {
     );
 }
 
-export default Page;
+export default AddProductPage;
