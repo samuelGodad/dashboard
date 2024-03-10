@@ -1,0 +1,21 @@
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.2rem;
+    background-color: var(--bgSoft);
+}
+
+.logo {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: var(--textSoft);
+    font: caption;
+    text-transform: capitalize;
+}
+
+.text {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
