@@ -1,0 +1,39 @@
+.container {
+    position: sticky;
+    
+}
+
+.items {
+    position: relative;
+}
+
+.bgContainer {
+    background-color: var(--bgSoft);
+    padding: 20px;
+    border-radius: 10px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 50%;
+    height: 50%;
+    
+}
+
+.image {
+    object-fit: cover;
+    opacity: 0.2;
+    
+}
+
+.subtitle {
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: var(--textSoft);
+    text-transform: capitalize;
+    margin-bottom: 20px;
+    z-index: 1;
+}
+
+.desc {
+    z-index: 1;
+}
