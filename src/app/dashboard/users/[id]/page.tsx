@@ -29,7 +29,9 @@ function SingleUserPage() {
                     <div className = {styles.icon}>
                         <input type = {showPassword ? "text" : "password"} name = "password"
                                autoComplete = "new-password"/>
-                        <MdOutlineVisibility className = {styles.icons} onClick = {handleShowPassword}/>
+                        {showPassword ?
+                            <MdOutlineVisibility className = {styles.icons} onClick = {handleShowPassword}/> :
+                            <MdOutlineVisibility className = {styles.icons} onClick = {handleShowPassword}/>}
                     </div>
                     <label>phone</label>
                     <input placeholder = "0980117654" type = "phone" name = "phone"/>
