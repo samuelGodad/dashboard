@@ -16,7 +16,7 @@ function AddProductPage() {
                 <input type = "number" placeholder = "stocke" name = "stocke"/>
                 <input type = "text" placeholder = "color" name = "color"/>
                 <input type = "text" placeholder = "size" name = "size"/>
-                <textarea name = "desc" id = "desc" rows = "20" placeholder = "description "></textarea>
+                <textarea name = "desc" id = "desc" rows = {20} placeholder = "description "></textarea>
                 <button type = "submit">Submit</button>
             </form>
         </div>

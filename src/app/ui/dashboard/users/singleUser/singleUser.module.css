@@ -1,14 +1,50 @@
 .container {
     display: flex;
     gap: 50px;
+    margin-top: 50px;
+    padding: 10px;
 }
 
 .infoContainer {
     flex: 1;
+    background-color: var(--bgSoft);
+    padding: 20px;
+    border-radius: 5px;
+    font-weight: bold;
+    color: var(--textSoft);
+    height: max-content;
 }
 
-.infoForm {
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.form input, .form textarea, .form select, .form option {
+    padding: 20px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    background-color: var(--bg);
+    color: var(--textSoft);
+    font-weight: bold;
+    
+}
+
+.form label {
+    text-transform: capitalize;
+}
+
+.form option {
+    background-color: var(--bgSoft);
+}
+
+.formContainer {
     flex: 3;
+    border-radius: 20px;
+    background-color: var(--bgSoft);
+    padding: 20px;
 }
 
 .imageContainer {
@@ -17,4 +53,38 @@
     position: relative;
     overflow: hidden;
     border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.btn {
+    padding: 20px;
+    border: none;
+    
+    border-radius: 5px;
+    background-color: teal;
+    color: var(--textSoft);
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+    width: 100%;
+    margin-top: 10px;
+    
+}
+
+.icon {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative; /* Add this */
+}
+
+.icon input {
+    width: 100%;
+    /* Add this to prevent text from going under the icon */
+}
+
+.icon .icons {
+    position: absolute;
+    left: 95%;
+    cursor: pointer;
 }
